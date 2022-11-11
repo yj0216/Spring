@@ -9,12 +9,12 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service//스프링이 찾을 수 있도록 만듬
-public class MemberService {
+//@Service//스프링이 찾을 수 있도록 만듬
+public class  MemberService {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
+    //@Autowired
     public MemberService(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
