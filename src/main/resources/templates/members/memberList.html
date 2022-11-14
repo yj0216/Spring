@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:th="http://thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 
 </head>
 <body>
 
-<div class=="container">
+<div class ="container">
   <div>
     <table>
       <thead>
@@ -16,7 +16,7 @@
       </thead>
       <tbody>
       <tr th:each="member : ${members}">
-        <td th:text="${members.id}"></td>
+        <td th:text="${member.id}"></td>
         <td th:text="${member.name}"></td>
       </tr>
       </tbody>
