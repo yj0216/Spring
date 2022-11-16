@@ -1,13 +1,11 @@
 package com.example.helloworld.repository;
 
+import java.util.List;
 import com.example.helloworld.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
 import  static  org.assertj.core.api.Assertions.*;
 
 class MemoryMemberRepositoryTest  {
